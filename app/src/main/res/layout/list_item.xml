@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:id="@+id/tvFirstname"
+        android:layout_margin="8dp"
+         />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:id="@+id/tvLastname"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/tvFirstname"
+        android:layout_alignLeft="@id/tvFirstname"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:id="@+id/tvGender"
+        android:layout_below="@id/tvLastname"
+        android:layout_alignLeft="@id/tvFirstname"
+        />
+</RelativeLayout>
